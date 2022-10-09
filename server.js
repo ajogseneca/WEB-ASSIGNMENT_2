@@ -13,7 +13,7 @@ other source
 const data_services = require("./data-service.js")
 var express = require("express"); 
 var app = express();
-app.use(express.static('public'));
+//app.use(express.static('public'));
 var path = require("path"); 
 var HTTP_PORT = process.env.PORT || 8080; 
 function onHttpStart(){
