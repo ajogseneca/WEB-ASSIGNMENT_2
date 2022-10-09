@@ -7,13 +7,12 @@ other source
 *
 * Name: AJO GEORGE  Student ID: 157845215  Date: 08-10-2022
 *
-* Your app’s URL (from Cyclic) : ______________________________________________
+* Your app’s URL (from Cyclic) : https://shy-gray-brown-bear-wig.cyclic.app/
 *
 *************************************************************************/ 
 const data_services = require("./data-service.js")
 var express = require("express"); 
 var app = express();
-//app.use(express.static('public'));
 var path = require("path"); 
 var HTTP_PORT = process.env.PORT || 8080; 
 function onHttpStart(){
